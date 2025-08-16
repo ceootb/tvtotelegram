@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # Discord webhook URL - replace with your actual webhook URL
 DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL',
-                                     'https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN')
+                                     'https://discord.com/api/webhooks/1404747703153328249/pu_5psfq3N2N2gIZQaTWv3LqFlb4sVIIlZoxKPvqT_Ta1W7m4tBUrU5bXeNdzDibZeaX')
 
 # Session for connection pooling and better performance
 session = requests.Session()

@@ -86,22 +86,8 @@ def create_signal_embed(signal, ticker, price, waktu):
                 "name": "🕒 Signal Time",
                 "value": f"{waktu}",
                 "inline": False
-            },
-            {
-                "name": "🎯 Take Profit",
-                "value": "+30 pips",
-                "inline": True
-            },
-            {
-                "name": "🛑 Stop Loss",
-                "value": "-50 pips",
-                "inline": True
             }
         ],
-        "footer": {
-            "text": "TradingView Signal Bot",
-            "icon_url": "https://tradingview.com/favicon.ico"
-        }
     }
 
     return embed
